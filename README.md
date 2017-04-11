@@ -20,8 +20,7 @@ guardCat.run( {
   // your GitHub access token
   // -> https://github.com/settings/tokens
   token : '234567890',
-  // patterns for notifications matching given patterns
-  // uses minimatch
+  // patterns for notifications repos (uses minimatch)
   // -> everything that works there is possible here, too
   repoPatterns : [ 'stefanjudis/*', 'tc39/ecma262' ]
 } ).then( notification => {
