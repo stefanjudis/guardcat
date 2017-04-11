@@ -37,4 +37,4 @@ Get all GitHub notifications for repos matching the patterns.
 - `options.token {string}` (required)
 - `options.repoPatterns {array}` (required)
 
-Returns: {Promise}
+Returns: `{Promise}`
