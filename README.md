@@ -34,7 +34,7 @@ guardCat.run( {
 Get all GitHub notifications for repos matching the patterns.
 
 **Parameters:**
-- {string} `options.token` (required)
-- {array} `options.repoPatterns` (required)
+- `options.token {string}` (required)
+- `options.repoPatterns {array}` (required)
 
 Returns: {Promise}
