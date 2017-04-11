@@ -1,0 +1,26 @@
+{
+  "name": "guardcat",
+  "version": "1.0.0",
+  "description": "A utility to help dealing with GitHub notifications",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanjudis/guardcat.git"
+  },
+  "keywords": [
+    "github"
+  ],
+  "author": "stefan judis <stefanjudis@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stefanjudis/guardcat/issues"
+  },
+  "homepage": "https://github.com/stefanjudis/guardcat#readme",
+  "dependencies": {
+    "github-api": "^3.0.0",
+    "minimatch": "^3.0.3"
+  }
+}
