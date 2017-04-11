@@ -5,7 +5,6 @@ So let me introduce you to GuardCat – a simple helper utility to query the Git
 
 ![A cat watching the Octocat](./logo.jpg "GuardCat logo")
 
-
 *Side note: This utility is mainly used to build a CLI tool and web app with it.*
 
 ## Getting started
@@ -18,7 +17,12 @@ $ npm i --save guardcat
 const guardCat = require( 'guardcat' );
 
 guardCat.run( {
+  // your GitHub access token
+  // -> https://github.com/settings/tokens
   token : '234567890',
+  // patterns for notifications matching given patterns
+  // uses minimatch
+  // -> everything that works there is possible here, too
   repoPatterns : [ 'stefanjudis/*', 'tc39/ecma262' ]
 } ).then( notification => {
   // notifications only matching one of the patterns

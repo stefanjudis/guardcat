@@ -3,6 +3,10 @@ const minimatch = require( 'minimatch' );
 
 module.exports = {
   run : ( { token, repoPatterns } ) => {
+    if ( ! token || ! repoPatterns ) {
+      return Promise.reject( new Error( 'Missing required parameter...' ) );
+    }
+
     const gh = new GitHub( { token } );
     const me = gh.getUser();
 
