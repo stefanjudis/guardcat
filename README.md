@@ -1,7 +1,7 @@
 # GuardCat
 
 GitHub notifications can be overwhelming. I watch a lot of repos and would like to get notifications only for repos that match a given pattern.
-So let me introduce you to GuardCat – a simple helper utility to query the GitHub api for particular patterns.
+So let me introduce you to GuardCat – a simple helper utility to query the GitHub API recursively for particular patterns (and possibly more options later).
 
 ![A cat watching the Octocat](./logo.jpg "GuardCat logo")
 
@@ -31,9 +31,7 @@ guardCat.run( {
 Get all GitHub notifications for repos matching the patterns.
 
 **Parameters:**
-- {object} options
-  - {string} token (required)
-  - {array} repoPatterns (required)
+- {string} `options.token` (required)
+- {array} `options.repoPatterns` (required)
 
 Returns: {Promise}
-
