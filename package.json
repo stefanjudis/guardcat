@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "xo && ava",
-    "fix:lint": "xo --fix"
+    "fix:lint": "xo --fix",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
@@ -20,8 +21,8 @@
     "url": "https://github.com/stefanjudis/guardcat/issues"
   },
   "homepage": "https://github.com/stefanjudis/guardcat#readme",
-  "xo" : {
-    "space" : true
+  "xo": {
+    "space": true
   },
   "dependencies": {
     "github-api": "^3.0.0",
@@ -29,6 +30,8 @@
   },
   "devDependencies": {
     "ava": "^0.19.1",
+    "coveralls": "^2.13.0",
+    "nyc": "^10.2.0",
     "proxyquire": "^1.7.11",
     "xo": "^0.18.1"
   }
