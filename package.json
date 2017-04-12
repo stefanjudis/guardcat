@@ -6,7 +6,8 @@
   "scripts": {
     "test": "xo && nyc ava",
     "fix:lint": "xo --fix",
-    "coveralls": "nyc report --reporter=text-lcov | coveralls"
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "release": "np --"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,7 @@
   "devDependencies": {
     "ava": "^0.19.1",
     "coveralls": "^2.13.0",
+    "np": "^2.13.1",
     "nyc": "^10.2.0",
     "proxyquire": "^1.7.11",
     "xo": "^0.18.1"
