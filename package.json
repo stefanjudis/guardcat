@@ -4,7 +4,8 @@
   "description": "A utility to help dealing with GitHub notifications",
   "main": "index.js",
   "scripts": {
-    "test": "ava"
+    "test": "xo && ava",
+    "fix:lint": "xo --fix"
   },
   "repository": {
     "type": "git",
@@ -19,12 +20,16 @@
     "url": "https://github.com/stefanjudis/guardcat/issues"
   },
   "homepage": "https://github.com/stefanjudis/guardcat#readme",
+  "xo" : {
+    "space" : true
+  },
   "dependencies": {
     "github-api": "^3.0.0",
     "minimatch": "^3.0.3"
   },
   "devDependencies": {
     "ava": "^0.19.1",
-    "proxyquire": "^1.7.11"
+    "proxyquire": "^1.7.11",
+    "xo": "^0.18.1"
   }
 }
