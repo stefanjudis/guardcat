@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/stefanjudis/guardcat.svg?branch=master)](https://travis-ci.org/stefanjudis/guardcat) [XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)
+[![Build Status](https://travis-ci.org/stefanjudis/guardcat.svg?branch=master)](https://travis-ci.org/stefanjudis/guardcat) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 
 # GuardCat
 
