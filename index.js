@@ -2,7 +2,7 @@ const GitHub = require( 'github-api' );
 const minimatch = require( 'minimatch' );
 
 module.exports = {
-  run : ( { token, repoPatterns } ) => {
+  run : ( { token, repoPatterns } = {} ) => {
     if ( ! token || ! repoPatterns ) {
       return Promise.reject( new Error( 'Missing required parameter...' ) );
     }

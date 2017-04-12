@@ -4,7 +4,7 @@
   "description": "A utility to help dealing with GitHub notifications",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "ava"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,9 @@
   "dependencies": {
     "github-api": "^3.0.0",
     "minimatch": "^3.0.3"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "proxyquire": "^1.7.11"
   }
 }
