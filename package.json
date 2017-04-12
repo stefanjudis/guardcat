@@ -1,6 +1,6 @@
 {
   "name": "guardcat",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A utility to help dealing with GitHub notifications",
   "main": "index.js",
   "scripts": {
