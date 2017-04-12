@@ -4,7 +4,7 @@
   "description": "A utility to help dealing with GitHub notifications",
   "main": "index.js",
   "scripts": {
-    "test": "xo && ava",
+    "test": "xo && nyc ava",
     "fix:lint": "xo --fix",
     "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
